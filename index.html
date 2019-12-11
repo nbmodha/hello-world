@@ -1,10 +1,16 @@
 <html>
   <head>
     <title>my first App in GitHub</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
   </head>
-  <body>
-    <h1>Nidhi Modha</h1>
+  <body ng-app='myApp'>
+    <div ng-controller = 'myCtrl'>
+    <!--     <h1>Nidhi Modha</h1>
     <h3>This is the page where i have change the content.</h3>
-    <h3>This line is written in visual studio code.</h3>
+    <h3>This line is written in visual studio code.</h3> -->
+     Message Comming from script file: {{message}}
+    </div>
+
   </body>
 </html>
